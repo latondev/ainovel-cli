@@ -90,6 +90,7 @@ func loadReferences(style string) tools.References {
 		if data, err := referencesFS.ReadFile(genreDir + "arc-templates.md"); err == nil {
 			refs.ArcTemplates = string(data)
 		}
+		refs.GenreLore = loadGenreLore(referencesFS, genreDir+"knowledge")
 	}
 	return refs
 }
@@ -144,4 +145,26 @@ func mustRead(fs embed.FS, path string) string {
 		panic(fmt.Sprintf("embed read %s: %v", path, err))
 	}
 	return string(data)
+}
+
+// loadGenreLore đọc động tất cả *.md trong thư mục knowledge và gộp thành một chuỗi.
+// Mỗi file thành một section riêng với header tên file. Trả về rỗng nếu thư mục không tồn tại.
+func loadGenreLore(fsys embed.FS, knowledgeDir string) string {
+	entries, err := fsys.ReadDir(knowledgeDir)
+	if err != nil {
+		return ""
+	}
+	var parts []string
+	for _, e := range entries {
+		if e.IsDir() || !strings.HasSuffix(e.Name(), ".md") {
+			continue
+		}
+		data, err := fsys.ReadFile(knowledgeDir + "/" + e.Name())
+		if err != nil {
+			continue
+		}
+		title := strings.TrimSuffix(e.Name(), ".md")
+		parts = append(parts, "## "+title+"\n\n"+string(data))
+	}
+	return strings.Join(parts, "\n\n---\n\n")
 }
