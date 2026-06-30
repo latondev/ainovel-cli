@@ -89,3 +89,21 @@ Phần này điều chỉnh *nhịp* — đặc biệt ở các chương mở đ
 
 ### D. Tiết chế quy mô cho truyện cá nhân/làng
 - Với truyện quy mô **cá nhân hoặc một làng** (nghề thủ công, một oan hồn, một gia tộc), hãy **tiết chế yếu tố đại chiến và sử thi**: giữ nỗi sợ thầm lặng, cận cảnh, đời thường. Chỉ nâng quy mô khi cốt truyện thực sự đòi hỏi.
+
+### E. Chống lan man mô tả — luật áp cho MỌI mô tả, không riêng tư liệu nghề
+> Mục 4.A chỉ chặn việc tả quy trình làm nghề. Nhưng nguồn "lan man" lớn nhất của kinh dị là **dồn mô tả không khí, điềm báo, tả ma** — tả đẹp, tả rợn, nhưng không có ai đang cảm bên trong. Đây là cái phanh cho toàn bộ mô tả.
+
+- **Tả qua mắt một người, không qua camera trôi.** Mọi đoạn không khí phải neo vào giác quan và phản ứng của MỘT nhân vật cụ thể (xem `psychology.md` mục 6 — luật neo + công thức 3 nhịp). Tả cảnh "vô chủ" là gốc của sự vô cảm.
+- **1 hình ảnh rợn đắt > 5 hình ảnh rợn rải.** Trong một nhịp sợ, chọn **một** chi tiết sắc nhất (nhang cháy xanh, hoặc chó hú, hoặc di ảnh lệch — không phải cả ba). Một chi tiết được nhân vật phản ứng thật sẽ rợn hơn một danh sách điềm báo. Đếm thấy quá 2 hình ảnh rợn liền nhau mà không ai phản ứng → cắt còn 1, dồn chỗ trống cho nội tâm.
+- **Đừng viết chữ "sợ" — viết cái khiến người đọc sợ.** Gọi tên cảm xúc ("anh rất sợ", "cô kinh hoàng") là tả lười; thay bằng cái thân làm (gáy dựng, tay cứng, đái són) và cái đầu nghĩ cụt.
+- **Định lượng:** một đoạn mô tả thuần cảnh/không khí kéo dài quá **3–4 câu** mà chưa có một phản ứng cơ thể hay một ý nghĩ của nhân vật chen vào → đang trôi, cắt ~20% và neo lại vào người.
+- **Mô tả phục vụ nhịp, không phải khoe.** Tả nhiều ở chỗ cần nén thở (cận cảnh tiếng động nhỏ); tả ít, câu ngắn động từ mạnh ở chỗ biến cố nổ ra (đã nêu ở 1.A). Cảnh hành động mà tả dài dòng = giết nhịp.
+
+### F. Chống đơn điệu tông buồn / xa xăm (lỗi tâm trạng lặp)
+> Kinh dị dân gian dễ rơi vào một cái bẫy riêng: tả đẹp, buồn, hoài niệm, "xa xăm" — rồi **giữ nguyên đúng một tông đó từ đầu đến cuối**. Đọc vài chương thấy hay, đọc nhiều thấy chùng, nhão, mất lực kéo. Buồn là **gia vị**, không phải khí hậu thường trực.
+
+- **Buồn phải gắn hành động hoặc quyết định, không đứng tả suông.** Một nỗi buồn đẩy nhân vật *làm gì đó* (cầm bút lên, giấu một bức ảnh, nói dối thân nhân) mới có sức nặng. Buồn chỉ để ngân nga = trôi. Nếu một đoạn hoài niệm/man mác không đổi điều gì trong cảnh → cắt hoặc nén còn 1–2 câu.
+- **Đa tầng cảm xúc, đừng một màu.** Xen vào tông buồn những cảm xúc *gãy nhịp*: một câu mỉa, một cơn tham lóe lên, một tia giận, một thoáng nhẹ nhõm tội lỗi. Bi kịch đậm hơn khi nhân vật **không chỉ buồn** — họ vừa thương vừa muốn lợi dụng, vừa tiếc vừa sợ. Tông phẳng một mức (xem psychology.md 6.D) làm nhờn cả buồn lẫn sợ.
+- **Tránh lặp cụm "tâm trạng sáo".** Đừng để các mô-típ này quay lại mỗi vài trang: *ánh mắt xa xăm / nhìn về phía xa / nỗi buồn man mác / thở dài thườn thượt / lòng nặng trĩu / kỷ niệm ùa về / một nỗi cô đơn không tên / khói nhang nghi ngút buồn*. Mỗi cụm chỉ dùng **một lần là đắt**; lần hai là mòn. Thay bằng một chi tiết cụ thể, mới, qua giác quan nhân vật.
+- **Định lượng:** quá **2 đoạn nội tâm buồn/hồi tưởng trong một chương** mà cốt truyện không nhích → đang ngâm tâm trạng, cắt một đoạn và chuyển nó thành hành động đẩy truyện. Hồi tưởng chỉ được phép khi nó *thay đổi cách hiểu hiện tại*, không phải để thở dài cho đẹp.
+- **Quy tắc kiểm:** đọc lại chương, đánh dấu mọi câu mang tông buồn/hoài niệm. Nếu chúng dồn cụm và không câu nào kèm một hành động/tiết lộ/quyết định → tông đang đơn điệu, phải xé mỏng và neo vào việc nhân vật làm.

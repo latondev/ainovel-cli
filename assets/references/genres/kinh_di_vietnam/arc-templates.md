@@ -48,6 +48,33 @@ Mô hình chung, áp được cho mọi quy mô (quy mô càng nhỏ thì các b
 
 ---
 
+## 2B. LỰC KÉO CỐT TRUYỆN (momentum — đọc cùng cấu trúc leo thang)
+
+> Cấu trúc ở mục 2 cho biết căng thẳng *leo* thế nào. Mục này giữ cho độc giả **không đặt sách xuống giữa hai cú leo**. Lỗi hay gặp của kinh dị không khí: chương nào cũng đẹp, cũng rợn, nhưng **không có gì tiến** — đọc xong không biết truyện đang đi đâu. Nỗi sợ giữ người đọc *trong cảnh*; lực kéo mới giữ họ *sang chương sau*.
+
+### A. Mỗi chương phải đổi trạng thái
+Cuối chương, **ít nhất một thứ phải khác đầu chương**: một thông tin mới lộ ra, một quan hệ dịch chuyển, một cái giá vừa bị trả, một ranh giới vừa bị vượt. Nếu nhân vật kết chương ở đúng vị trí (cả nghĩa đen lẫn mục tiêu) như lúc mở chương → chương đó đang giậm chân, gộp hoặc cắt.
+
+### B. Câu hỏi nối câu hỏi (story question)
+Lực kéo sinh ra từ **câu hỏi chưa trả lời** trong đầu độc giả. Quy tắc: mỗi khi **đóng** một câu hỏi cũ ("bức ảnh đó của ai?"), phải **mở** một câu hỏi mới ngay ("vậy ai đã xóa người trong ảnh trước anh?"). Đừng trả lời hết rồi mới gieo cái mới — để hai câu hỏi luôn gối đầu nhau. Chương 1 phải cắm được **một câu hỏi lớn** đủ sức kéo qua nhiều chương.
+
+### C. Cảnh phải có mục tiêu + cản trở
+Một cảnh chỉ để "tả không khí" là cảnh chết. Mỗi cảnh: nhân vật **muốn một điều cụ thể** (hỏi cho ra sự thật, từ chối một đơn hàng, giấu một bí mật) và **gặp cản trở**. Không khí phủ *lên trên* cuộc giằng co đó, không thay thế nó. Hết cảnh, cái muốn đó phải được đẩy tới — đạt, hỏng, hoặc đổi thành cái muốn khó hơn.
+
+### D. Đồng hồ tích tắc & cái giá tăng dần
+Cho mỗi tuyến một **áp lực thời gian hoặc cái giá leo thang** để truyện tự đẩy: một hạn chót (trước giỗ, trước khi nhang tàn, trước khi người thân tiếp theo chết — gắn với ám ảnh Trùng Tang ở psychology.md 4), hoặc một cái giá mỗi lần dùng quyền năng lại đắt hơn. Độc giả ở lại vì *biết cái gì sắp mất* và muốn xem nhân vật trả thế nào.
+
+### E. Cấu trúc "ca khép + tuyến mở" (cho truyện dài tập)
+Với mô-típ mỗi-khách-một-ca (mục 1.A): mỗi vài chương **khép gọn một ca** (cho cảm giác đã-tiến, có thưởng) nhưng luôn để **một sợi của tuyến chính nhô lên** trong ca đó (phản diện lớn nhích thêm một bước, một manh mối về nguồn gốc nhân vật). Khép ca tạo nhịp thỏa mãn; tuyến mở tạo lý do đọc tiếp. Thiếu khép → mệt; thiếu mở → rời rạc.
+
+### F. Quy tắc kiểm lực kéo (chạy khi đóng chương)
+1. Cuối chương có gì **khác** đầu chương không? (Không → giậm chân, sửa.)
+2. Độc giả gấp chương lại còn **câu hỏi nào chưa trả lời** muốn biết tiếp không? (Không → gieo một câu hỏi mở.)
+3. Cảnh dài nhất chương: nhân vật **muốn gì** trong đó, và **bị cản** thế nào? (Không trả lời được → cảnh đang là tả suông, thêm xung đột hoặc cắt.)
+4. Có **đồng hồ/cái giá** nào đang đếm trong nền không? (Không → cốt đang trôi tự do, cắm một áp lực.)
+
+---
+
 ## 3. ĐIỂM MÓC ĐẶC TRƯNG CỦA THỂ LOẠI
 
 - **Uncanny valley (ám ảnh thị giác):** người quen cử động phi nhân (kiễng gót, bò 4 chi, chạy thụt lùi cực nhanh), nụ cười méo tới mang tai, mắt toàn tròng trắng. Tà ma mượn xác người thân để đánh lừa tâm lý nạn nhân.
