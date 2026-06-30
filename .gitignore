@@ -49,3 +49,7 @@ refer/
 output*
 # Added by code-review-graph
 .code-review-graph/
+
+# IDE/Terminal runner logs
+/terminals
+

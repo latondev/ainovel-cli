@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-surface text-slate-200 antialiased;
+  }
+}
+
+@layer components {
+  .card {
+    @apply rounded-xl border border-surface-border bg-surface-raised p-4 shadow-lg;
+  }
+  .badge {
+    @apply inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium;
+  }
+  .tab-active {
+    @apply border-b-2 border-accent text-white;
+  }
+  .tab-inactive {
+    @apply border-b-2 border-transparent text-slate-400 hover:text-slate-200;
+  }
+}

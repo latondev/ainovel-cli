@@ -11,6 +11,7 @@
 > _Sửa lần 2: 2026-06-30 — xác minh atomic-write (1.7), không-có-signal-handling (1.8); thêm concurrency ownership (10.1), slug an toàn (10.2), sanitize output (10.3); chốt 5 quyết định (13)._
 > _Sửa lần 3: 2026-06-30 — chuẩn hóa `progress.phase == "complete"`; chốt stop là hard kill; thêm startup recovery (9.1), queue scheduler (10.1b), export qua `internal/host/exp` (10.4), xóa an toàn (10.5), checklist test invariant (11.1)._
 > _Sửa lần 4: 2026-06-30 — đổi frontend từ Go template/HTMX sang **React + Vite + TypeScript SPA**; Go backend giữ REST API + SSE và serve static `dist`._
+> _Sửa lần 5: 2026-06-30 — chốt frontend stack (routing, state, CSS, HTTP client, layout, error format); xem mục 10.0b._
 
 ---
 
@@ -347,6 +348,46 @@ Frontend là một SPA build-time, backend Go là API + static file server:
 - API types: định nghĩa DTO TypeScript ở `src/types`; giữ tên field JSON theo backend, không tự suy diễn schema từ file output.
 - UI library: ưu tiên CSS nhẹ + `lucide-react` icons. Có thể thêm thư viện chuyên biệt khi cần: `react-markdown`, `recharts`, `cytoscape`/`reactflow`, `tanstack-table`.
 - Không render HTML chưa sanitize từ client. Nội dung chương nên nhận từ backend dưới dạng HTML đã sanitize hoặc markdown escaped rồi render bằng component an toàn.
+
+### 10.0b. Frontend stack — đã chốt
+
+| Vấn đề | Quyết định | Lý do |
+|---|---|---|
+| Routing | **React Router v6** (`createBrowserRouter`) | Standard, hỗ trợ nested routes cho layout sidebar |
+| Server state | **TanStack Query v5** (`@tanstack/react-query`) | Cache tự động, refetch on focus, loading/error state miễn phí — tốt cho app nặng API |
+| Local UI state | `useState` / `useReducer` thuần | Không cần Zustand/Redux; chỉ server state là phức tạp |
+| CSS | **Tailwind CSS v3** | Đã nhắc "CSS nhẹ" ở 10.0; không cần CSS Modules |
+| HTTP client | **`fetch` thuần** bọc trong `src/api/client.ts` | Không cần axios; bọc để thống nhất base URL, error parsing, auth header |
+| Loading state | **Skeleton UI** cho list/detail; spinner nhỏ cho action (stop/resume/create) | Skeleton ít giật hơn |
+| Layout tổng thể | **Sidebar trái** (danh sách truyện + nút tạo mới) + **content area phải** (detail/chương/tabs) | Cho phép xem nhanh nhiều truyện không mất context |
+| Icon | `lucide-react` (đã nhắc ở 10.0) | Nhẹ, tree-shakeable |
+
+**Error response format** (backend phải trả nhất quán):
+```json
+{ "error": "message mô tả lỗi", "code": "NOVEL_NOT_FOUND" }
+```
+- HTTP status code mang ý nghĩa chính (404, 409, 500…).
+- `code` là enum snake_upper để frontend switch case khi cần hiển thị khác nhau.
+- Mọi handler Go wrap qua `writeError(w, code, httpStatus, msg string)` helper.
+
+**Pages & routes:**
+```
+/                        → redirect /novels
+/novels                  → NovelListPage  (sidebar + list)
+/novels/new              → CreateNovelPage (form)
+/novels/:slug            → NovelDetailPage (tabs: Tổng quan / Đề cương / Nhân vật / Thế giới / Phục bút / Timeline / Review)
+/novels/:slug/chapters   → ChapterListPage
+/novels/:slug/chapters/:n → ChapterReadPage
+```
+
+**npm dependencies bổ sung (ngoài react/vite/typescript):**
+```
+react-router-dom@6
+@tanstack/react-query@5
+tailwindcss@3 + autoprefixer + postcss
+lucide-react
+```
+Optional Phase 3: `react-markdown`, `recharts`, `@tanstack/react-table`, `cytoscape`/`reactflow`.
 
 ### 10.1. Concurrency ownership (rủi ro #1 — phải chốt trước khi code Phase 2)
 Có N process + N watcher + SSE hub + DB sync chạy song song → đây là chỗ dễ race nhất. Quy ước sở hữu state:
