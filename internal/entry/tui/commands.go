@@ -100,6 +100,17 @@ func commandRegistryInstance() commandRegistry {
 			},
 		},
 		{
+			Name:        "prompt-file",
+			Aliases:     []string{"promptfile", "pf"},
+			Group:       "writing",
+			Usage:       "/prompt-file <path>",
+			Description: "Đọc prompt dài từ file để tạo truyện, tránh giới hạn paste của terminal",
+			NeedsIdle:   true,
+			Run: func(m Model, args []string) (tea.Model, tea.Cmd) {
+				return startPromptFile(m, args)
+			},
+		},
+		{
 			Name:        "import",
 			Group:       "writing",
 			Usage:       "/import <path> [from=N]",

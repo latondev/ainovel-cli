@@ -108,7 +108,8 @@ type Model struct {
 func NewModel(rt *host.Host, bridge *askUserBridge, version string) Model {
 	ta := textarea.New()
 	ta.Placeholder = placeholderForNewMode(startupModeQuick)
-	ta.CharLimit = 2000
+	// Cho phép paste prompt dài; bubbles textarea dùng CharLimit=0 là không giới hạn.
+	ta.CharLimit = 0
 	ta.SetHeight(1)
 	// MaxHeight=6 cho phép input quá dài tự động wrap theo chiều rộng hiển thị thành nhiều dòng (tối đa 6 dòng hiển thị).
 	ta.MaxHeight = 6
