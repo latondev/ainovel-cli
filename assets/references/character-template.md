@@ -11,6 +11,8 @@
 - **Nỗi sợ lớn nhất**:
 - **Khiếm khuyết chí mạng**:
 - **Khao khát nội tâm**:
+- **Trí tuệ/năng lực nền**: (mức nhạy bén, lĩnh vực am hiểu, tốc độ phản ứng — giữ ổn định xuyên suốt)
+- **Điểm mù cố định**: (vùng DUY NHẤT nhân vật được phép ngây ngô/sai lầm, và phải nhất quán ở vùng đó)
 - **Câu chuyện nền**:
 - **MBTI:**
 

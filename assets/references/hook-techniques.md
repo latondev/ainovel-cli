@@ -180,6 +180,11 @@ Chương 4: Điệp viên biết danh tính bí mật của nhân vật chính
    > Sai: Anh không biết tối nay ăn gì
    > Đúng: Bữa tối của anh đã bị ai đó bỏ độc
 
+5. **Khép trọn chương giữa** - Giải quyết sạch mọi căng thẳng ở chương không phải kết cung/kết truyện, khiến đọc xong là hết chuyện, không còn gì kéo sang chương sau
+   > Sai: Mọi hiểu lầm được gỡ, ai về nhà nấy, chương khép lại êm đẹp (dù mới là chương giữa cung)
+   > Đúng: Gỡ xong hiểu lầm này thì lộ ra một dấu hỏi mới / một mối đe dọa khác vừa ló dạng
+   > Nguyên tắc: Chỉ chương kết cung hoặc kết truyện mới được đóng trọn
+
 ---
 
 ## Cấp Độ Cường Độ Điểm Móc
