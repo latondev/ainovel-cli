@@ -6,6 +6,8 @@ Tài liệu này là kho tiêu chí nhận diện "văn phong AI" dùng chung ch
 
 ## I. Văn phong AI về cấu trúc
 
+- **Tham chiếu chương hoặc arc trong lời kể**: viết "ở chương chín", "hồi arc hai", "cuối chương mười bảy" trong lời người kể hoặc nội tâm nhân vật — đây là ký hiệu lập kế hoạch rò rỉ vào văn xuôi, phá vỡ ảo giác thực tại của người đọc. Cách sửa: thay bằng mô tả sự kiện cụ thể ("lần lẻn vào nhà thờ họ với Lan", "đêm Bà Năm soi ảnh dưới đèn dầu") — không bao giờ nhắc đến số chương hoặc tên arc trong thân truyện.
+
 - **Câu ba vế / liệt kê đối xứng ba lần**: dùng liên tiếp ba câu ngắn hoặc mệnh đề có cấu trúc đối xứng để "tạo thế" ("Anh không còn do dự, không còn lùi bước, không còn ngoảnh đầu"). Cách sửa: giữ lại một câu mạnh nhất, phần còn lại tách thành hành động hoặc chi tiết cụ thể.
 - **Chồng chất câu đối xứng đều nhau**: mỗi đoạn có độ dài và cú pháp gần giống nhau, đọc như danh sách. Cách sửa: xen kẽ câu dài ngắn, để nhịp văn có hơi thở.
 - **Tiêu đề phụ đánh số trong chương / chia cắt bằng `##`**: xuất hiện các mục `một` `hai` `ba` hoặc dấu `##`/`###` trong thân bài. Cách sửa: chỉ giữ tiêu đề chương, dùng dòng trống chuyển cảnh tự nhiên.

@@ -218,6 +218,20 @@ Càng căng thẳng hơn: Phải rời đi ngay lập tức
 
 **Nguyên tắc**: Luân phiên giữa mật độ cao và thấp — tránh mật độ cao liên tục (độc giả mệt mỏi) hoặc mật độ thấp liên tục (độc giả nhàm chán)
 
+### Quy Tắc Dùng Dấu Scene Break (`***`)
+
+`***` chỉ được dùng khi có **một trong ba điều kiện**:
+1. Nhảy thời gian hơn 1 tiếng đồng hồ
+2. Chuyển địa điểm hoàn toàn khác (không phải bước sang phòng kế)
+3. Chuyển POV nếu truyện có nhiều điểm nhìn
+
+**Không dùng `***` để:**
+- Ngăn đoạn hội thoại với đoạn mô tả trong cùng một scene
+- Tạo "pause điện ảnh" cho câu ngắn — dùng dòng trống hoặc câu chuyển thay thế
+- Thay thế câu chuyển cảnh viết được
+
+**Giới hạn**: tối đa 4–5 lần `***` cho chương tiêu chuẩn (1500–3000 từ). Nếu đếm được hơn 5 dấu `***` trong một chương, đó là dấu hiệu cần gộp scene hoặc viết lại câu chuyển.
+
 ---
 
 ## Đối Chiếu Độ Dài Chương Và Mật Độ Nội Dung

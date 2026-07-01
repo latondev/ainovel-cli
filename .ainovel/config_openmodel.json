@@ -1,0 +1,13 @@
+{
+    "provider": "deepseek-custom",
+    "model": "deepseek-v4-flash",
+    "providers": {
+        "deepseek-custom": {
+            "type": "custom",
+            "api_key": "om-jPPwYGytdnqQcgw2dMM2c3NN9ZFSC4F4vFvQpcYqw",
+            "base_url": "https://api.openmodel.ai/v1"
+        }
+    },
+    "style": "default",
+    "active_rule": "vietnamese-novel"
+}

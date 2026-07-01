@@ -1,0 +1,16 @@
+{
+  "provider": "claude-opus-4-7-custom",
+  "model": "claude-opus-4-7",
+  "providers": {
+    "claude-opus-4-7-custom": {
+      "type": "openai",
+      "api_key": "sk-zy-ebb36f202ca7c11f608d32a5e24d283087fe98e4211dd230",
+      "base_url": "https://api.zyloo.io/v1",
+      "models": [
+        "claude-opus-4-7"
+      ]
+    }
+  },
+  "style": "kinh_di_vietnam",
+  "active_rule": "vietnamese-novel"
+}

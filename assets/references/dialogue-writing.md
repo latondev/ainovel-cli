@@ -301,6 +301,24 @@ Dùng hành động thay cho "anh nói".
 5. **Thuyết giáo** — nhân vật phát biểu triết lý dài dòng
    > Chuyển sang thể hiện quan điểm qua xung đột và hành động
 
+6. **Hai thoại liền nhau không có action beat** — người đọc mất nửa giây "assign" lại ai đang nói, nhất là khi câu đầu ngắn và câu sau đổi chủ thể
+   > Sai:
+   > "Cho tôi thêm ba bữa."
+   > "Ba bữa của cậu bằng nửa tháng của người khác."
+   >
+   > Đúng: chèn một beat nhỏ (hành động, ánh nhìn, cử chỉ) giữa hai thoại để neo lại người nói thứ hai:
+   > "Cho tôi thêm ba bữa."
+   > Bà chủ nhà không thèm nhìn anh. Ngón tay gõ nhẹ vào cuốn sổ.
+   > "Ba bữa của cậu bằng nửa tháng của người khác."
+   >
+   > **Quy tắc:** khi hai thoại liền nhau và không có thẻ ("anh nói" / "bà hỏi"), phải có ít nhất một action beat hoặc một dòng mô tả ngắn giữa chúng để giữ rõ chủ thể.
+
+7. **Hai nhân vật cùng xưng "tôi" — lỗi đặc thù tiếng Việt** — tiếng Việt không có đại từ trung tính kiểu "I/you" cố định; khi cả hai nhân vật đều chọn "tôi", loạt thoại trở thành một màu, không phân biệt được giọng
+   > Giải pháp: phân tầng xưng hô theo quan hệ và tính cách:
+   > - Nhân vật trẻ hơn / thấp thế hơn: tôi / con / em / cháu
+   > - Nhân vật có quyền / lớn tuổi hơn: tao / tôi / ta — kết hợp gọi đối phương là "cậu / mày / anh / chú"
+   > - Chỉ để hai nhân vật đều dùng "tôi" khi quan hệ thật sự ngang hàng và xa cách; ngay cả khi đó, phải bù bằng action beat và giọng điệu khác nhau để người đọc không bị nhòe.
+
 ---
 
 ## Tự Kiểm Tra Đối Thoại
@@ -314,3 +332,4 @@ Sau khi viết xong đối thoại, hãy kiểm tra:
 - [ ] Nhịp điệu có phù hợp (nhanh/chậm) không?
 - [ ] Có phù hợp với tính cách nhân vật không?
 - [ ] Thẻ đối thoại có được dùng đúng cách không?
+- [ ] Mỗi lượt thoại của mỗi nhân vật có nằm trên đoạn riêng không? (không để hai người nói dính chung một dòng hoặc cùng đoạn văn)

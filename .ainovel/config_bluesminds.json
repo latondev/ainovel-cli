@@ -1,0 +1,16 @@
+{
+    "provider": "bluesminds",
+    "model": "gpt-5.2-chat",
+    "providers": {
+        "bluesminds": {
+            "type": "openai",
+            "api_key": "sk-isHPq7HMMBTEoOYBjSDnb1FqDJ0fgUL6E3kq2ewoD69ey5Ov",
+            "base_url": "https://api.bluesminds.com/v1",
+            "models": [
+                "gpt-5.2-chat"
+            ]
+        }
+    },
+    "style": "kinh_di_vietnam",
+    "active_rule": "vietnamese-novel"
+}

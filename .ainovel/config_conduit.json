@@ -1,0 +1,23 @@
+{
+    "provider": "conduit",
+    "model": "claude-opus-4-8",
+    "providers": {
+        "conduit": {
+            "type": "openai",
+            "api_key": "sk-cdt-eyJpZCI6IjYxODcyMDcxNTgiLCJ1IjoiIiwibiI6ImRlZmF1bHQiLCJqIjoiZGVmYXVsdCIsImsiOiJhcGkifQ.TytH3bbJkXXNmXG8Qrmaa_5hjjcsvRkXJ5uFh8pwKKY",
+            "base_url": "https://conduit.ozdoev.net/api/v1",
+            "models": [
+                "gpt-5",
+                "claude-opus-4-8",
+                "claude-sonnet-4-6",
+                "claude-haiku-4-5",
+                "gpt-5-mini",
+                "o4",
+                "gpt-4o",
+                "gemini-3-pro"
+            ]
+        }
+    },
+    "style": "kinh_di_vietnam",
+    "active_rule": "vietnamese-novel"
+}
