@@ -93,6 +93,10 @@ Dùng danh sách kiểm tra chất lượng này trước khi bàn giao chương
   - Biểu đạt tính cách qua hành động / đối thoại
   - Không trực tiếp phát biểu "anh ấy rất dũng cảm"
 
+- [ ] **Hài hước/trêu chọc đúng thời điểm**
+  - Liều lượng đùa khớp với mức căng của cảnh (đời thường đùa thoải mái; nguy hiểm/tang thương thì tiết chế)
+  - Không đùa vô tội vạ làm xẹp căng thẳng; nếu đùa ở cảnh nặng thì là đùa có ý thức (biết tình thế), không phải vô tư
+
 ---
 
 ## Kiểm Tra Đối Thoại

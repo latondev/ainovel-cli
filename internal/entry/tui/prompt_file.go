@@ -3,12 +3,12 @@ package tui
 import (
 	"fmt"
 	"os"
-	"strings"
 	"time"
 
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/voocel/ainovel-cli/internal/entry/startup"
 	"github.com/voocel/ainovel-cli/internal/host"
+	"github.com/voocel/ainovel-cli/internal/utils"
 )
 
 func startPromptFile(m Model, args []string) (tea.Model, tea.Cmd) {
@@ -44,7 +44,7 @@ func startPromptFile(m Model, args []string) (tea.Model, tea.Cmd) {
 		m.refreshEventViewport()
 		return m, nil
 	}
-	prompt := strings.TrimSpace(string(data))
+	prompt := utils.CollapseBlankLines(string(data))
 	if prompt == "" {
 		m.applyEvent(host.Event{
 			Time:     time.Now(),

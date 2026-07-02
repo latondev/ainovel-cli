@@ -268,6 +268,13 @@ func (m Model) handleBaseKeyMsg(msg tea.KeyMsg) (tea.Model, tea.Cmd) {
 
 	var cmd tea.Cmd
 	m.textarea, cmd = m.textarea.Update(msg)
+	// Normalize CRLF và dòng trống thừa sau mỗi paste/keystroke.
+	// Chỉ gọi SetValue khi thực sự có thay đổi để tránh reset cursor không cần thiết.
+	if v := m.textarea.Value(); utils.HasExcessBlankLines(v) {
+		if fixed := utils.CollapseBlankLines(v); fixed != v {
+			m.textarea.SetValue(fixed)
+		}
+	}
 	m.refitTextareaHeight()
 	m.updateCommandPalette()
 	return m, cmd

@@ -1,14 +1,37 @@
-# PROMPT — TRUYỀN THẦN
-> Genre: `style = kinh_di_vietnam`. Dán từ "Tôi muốn viết…" đến hết.
+TRUYỀN THẦN — Story Prompt
 
----
+  Việt Nam, một con hẻm chết ở thành phố cũ. Minh là thợ vẽ truyền thần — nghề của
+  người già, nghề của kẻ không có lựa chọn nào tốt hơn. Anh sống bằng cách phục dựng
+  khuôn mặt người chết từ ảnh phai, từ lời kể run rẩy của thân nhân, đôi khi từ không
+  có gì ngoài một cái tên và nước mắt.
 
-Tôi muốn viết truyện kinh dị tâm lý dân gian Việt, tựa đề **Truyền Thần**.
+  Rồi anh phát hiện ra sự thật mà không ai nói với anh: nghề này chưa bao giờ chỉ là
+  vẽ.
 
-Một thợ vẽ truyền thần trẻ — phục dựng chân dung người chết để con cháu thờ — kế nghiệp vì cha mất và vốn không tin tâm linh. Cho đến khi anh nhận ra: bất cứ thứ gì anh vẽ thêm hay xóa trên một bức ảnh thờ *đã thắp hương* đều thành thật với người chết lẫn người sống. Vẽ thêm mắt, vong nhìn được người sống; xóa ai khỏi ảnh chung, người đó biến mất khỏi đời và mọi ký ức về họ tan biến — trừ ký ức của chính anh. Nhưng mọi quyền năng đều có giá, và giá tăng dần: cho vong thứ gì thì bị rút từ thân anh, xóa ai thì anh thành kẻ duy nhất còn nhớ, và muốn "giết" người sống thì phải làm một đám tang giả để cõi âm công nhận họ đã chết trước.
+  Những gì Minh đặt lên ảnh thờ — vong nhận lấy như thật. Vẽ thêm đôi mắt, vong thấy
+  được người sống đang ngủ trong nhà. Vẽ thêm miệng, vong bắt đầu nói — và người sống
+  nghe thấy vào lúc ba giờ sáng. Xóa một khuôn mặt khỏi ảnh gia đình chụp năm 1987 —
+  người đó biến mất khỏi ký ức của tất cả mọi người, như một vết mực bị tẩy sạch khỏi
+  tờ giấy. Không ai nhớ. Không ai tìm. Không có xác.
 
-Khi tin đồn lan ra, từng người tìm đến cầu xin: người mẹ muốn vẽ thêm nụ cười cho đứa con tự tử, ông lão muốn xóa người vợ phản bội khỏi ảnh cưới, một quan chức muốn vẽ lại cha mình thành liệt sĩ. Mỗi người một ca đạo đức, mỗi lần dùng quyền năng anh mất thêm một phần mình. Đứng sau tất cả là một dòng họ quyền thế muốn anh phục dựng cả gia phả — thêm tổ tiên giả để đoạt vận, xóa nhánh họ đối thủ để đoạt mệnh — và họ sẽ trả giá cao, rồi ép, rồi đe dọa người thân anh. Càng đi sâu anh càng nghi ngờ chính mình có thể cũng chỉ là một bức truyền thần do đời trước vẽ ra.
+  Minh nắm trong tay cây cọ có thể xóa một con người khỏi sự tồn tại — và thế giới
+  không hề rung chuyển.
 
-Viết kinh dị tâm lý + bi kịch đạo đức: không jump-scare, không quái vật, cái rợn đến từ hệ quả và lựa chọn. Giữ luật vẽ–thành–thật tuyệt đối nhất quán như định luật vật lý — độc giả luôn đoán được "làm X thì mất Y", mọi bi kịch sinh ra từ trong luật. Văn tiết chế, bám chi tiết nghề thật (bột than, giấy dó, kính lúp soi ảnh rạn, kiêng kỵ khi vẽ người chết), đậm chất Việt, tránh sáo ngữ AI. Mỗi chương có một quyết định đạo đức và một cái giá nhìn thấy được. Truyện dài 4–6 tập, hướng tới một kết bi kịch đạo đức quanh câu hỏi: ai xứng đáng nắm quyền quyết định sự tồn tại của người khác?
+  Tin đồn lan theo kiểu tin đồn chỉ lan được ở những nơi tăm tối: thì thầm, qua trung
+  gian, không bao giờ nói thẳng. Người ta tìm đến không phải để thờ phụng. Họ đến với
+  phong bì dày, với ánh mắt của kẻ đã quyết định từ trước khi bước qua cửa. Một người
+  vợ muốn anh xóa đứa con riêng của chồng — đứa bé bảy tuổi còn sống — ra khỏi bức ảnh
+  thờ ông nội. Một người anh cả muốn anh vẽ lại bàn tay người cha đã mất đang chỉ vào
+  tên mình thay vì tên em. Một dòng họ lớn — xe sang, vest thẳng nếp, giọng nói của
+  người quen ra lệnh — muốn anh ngồi xuống và vẽ lại cả một cây gia phả, chỉnh từng
+  đời tổ tiên, đặt vào tay họ những thứ họ chưa bao giờ được thừa kế nhưng từ lâu đã
+  thèm muốn.
 
-Hãy bắt đầu bằng premise, la bàn kết, hồ sơ nhân vật chính & phản diện, đề cương tập 1; trước khi viết chương 1 hãy tóm tắt lại bộ luật thành ràng buộc nội bộ để giữ nhất quán.
+  Mỗi lần Minh cầm cọ là một lần không thể lấy lại.
+
+  Anh không có quyền năng của anh hùng. Anh không có lương tâm sạch của thánh nhân.
+  Anh có một căn phòng nhỏ, mùi sơn dầu và nhang khói, và ngày càng nhiều người gõ cửa
+  vào lúc không ai nhìn. Ranh giới duy nhất còn lại giữa anh và kẻ giết người — là
+  cây cọ chưa chấm mực.
+
+  Nhưng mực thì lúc nào cũng ở đó.

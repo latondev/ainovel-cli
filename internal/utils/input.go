@@ -39,6 +39,36 @@ func CleanInputRunes(runes []rune) string {
 	return b.String()
 }
 
+// CollapseBlankLines chuẩn hóa line ending (CRLF → LF) rồi rút gọn
+// các dòng trống liên tiếp (≥ 2) xuống còn tối đa 1 dòng trống.
+// Dùng để chuẩn hóa prompt dán vào hoặc đọc từ file.
+func CollapseBlankLines(s string) string {
+	// Normalize CRLF → LF trước để tránh \r gây ra visual blank row thừa.
+	s = strings.ReplaceAll(s, "\r\n", "\n")
+	s = strings.ReplaceAll(s, "\r", "\n")
+	lines := strings.Split(s, "\n")
+	out := make([]string, 0, len(lines))
+	blankRun := 0
+	for _, l := range lines {
+		if strings.TrimSpace(l) == "" {
+			blankRun++
+			if blankRun <= 1 {
+				out = append(out, "")
+			}
+		} else {
+			blankRun = 0
+			out = append(out, l)
+		}
+	}
+	return strings.TrimSpace(strings.Join(out, "\n"))
+}
+
+// HasExcessBlankLines báo true khi chuỗi cần normalize:
+// có CRLF (paste từ Windows), hoặc ≥ 2 dòng trống liên tiếp.
+func HasExcessBlankLines(s string) bool {
+	return strings.Contains(s, "\r") || strings.Contains(s, "\n\n\n")
+}
+
 func ContainsControl(s string) bool {
 	for _, r := range s {
 		if unicode.IsControl(r) {

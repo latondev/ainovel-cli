@@ -1,0 +1,19 @@
+{
+    "provider": "freemodel",
+    "model": "gpt-5.5",
+    "providers": {
+        "freemodel": {
+            "type": "openai",
+            "api_key": "fe_oa_447d5b46b787c70735fcaa2ee72c73d3802cdc6582af73cb",
+            "base_url": "https://api.freemodel.dev/v1",
+            "models": [
+                "gpt-5.5",
+                "gpt-5.4",
+                "gpt-5.4-mini",
+                "gpt-5.3-codex"
+            ]
+        }
+    },
+    "style": "kinh_di_vietnam",
+    "active_rule": "vietnamese-novel"
+}

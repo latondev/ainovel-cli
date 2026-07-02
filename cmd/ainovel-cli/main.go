@@ -11,6 +11,7 @@ import (
 	"github.com/voocel/ainovel-cli/internal/entry/headless"
 	"github.com/voocel/ainovel-cli/internal/entry/tui"
 	"github.com/voocel/ainovel-cli/internal/rules"
+	"github.com/voocel/ainovel-cli/internal/utils"
 	buildversion "github.com/voocel/ainovel-cli/internal/version"
 )
 
@@ -238,5 +239,5 @@ func loadPrompt(opts cliOptions) (string, error) {
 	if err != nil {
 		return "", fmt.Errorf("đọc prompt thất bại: %w", err)
 	}
-	return strings.TrimSpace(string(data)), nil
+	return utils.CollapseBlankLines(string(data)), nil
 }

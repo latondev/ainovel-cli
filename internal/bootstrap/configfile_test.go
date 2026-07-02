@@ -192,23 +192,23 @@ func TestValidateBase_ProviderOverrideWithoutCredentials(t *testing.T) {
 
 // File ví dụ nội trang (config.example.jsonc qua go:embed) phải tự nhất quán:
 // sau khi bỏ comment phải là JSON hợp lệ, con trỏ provider cấp cao nhất không được treo lơ lửng,
-// và phải giải thích rõ tư duy “con trỏ” — đây là mẫu người dùng sẽ chép, nếu chính nó lỗi sẽ gây hại.
+// và phải giải thích rõ tư duy "con trỏ" — đây là mẫu người dùng sẽ chép, nếu chính nó lỗi sẽ gây hại.
 func TestExampleConfigIsValidAndSelfConsistent(t *testing.T) {
-	if exampleConfig == “” {
-		t.Fatal(“go:embed chưa có hiệu lực, exampleConfig rỗng”)
+	if exampleConfig == "" {
+		t.Fatal("go:embed chưa có hiệu lực, exampleConfig rỗng")
 	}
 	var cfg Config
 	if err := json.Unmarshal(stripJSONComments([]byte(exampleConfig)), &cfg); err != nil {
-		t.Fatalf(“file ví dụ nội trang sau khi bỏ comment không phải JSON hợp lệ (người dùng chép là gặp họa): %v”, err)
+		t.Fatalf("file ví dụ nội trang sau khi bỏ comment không phải JSON hợp lệ (người dùng chép là gặp họa): %v", err)
 	}
-	if cfg.Provider == “” || cfg.ModelName == “” {
-		t.Fatal(“file ví dụ phải cung cấp provider/model mặc định”)
+	if cfg.Provider == "" || cfg.ModelName == "" {
+		t.Fatal("file ví dụ phải cung cấp provider/model mặc định")
 	}
 	if _, ok := cfg.Providers[cfg.Provider]; !ok {
-		t.Errorf(“provider cấp cao nhất %q trong ví dụ không trỏ đến mục trong providers — mẫu con trỏ chính nó bị treo lơ lửng”, cfg.Provider)
+		t.Errorf("provider cấp cao nhất %q trong ví dụ không trỏ đến mục trong providers — mẫu con trỏ chính nó bị treo lơ lửng", cfg.Provider)
 	}
-	if !contains(exampleConfig, “con trỏ”) {
-		t.Error(“file ví dụ phải giải thích rõ \”provider là con trỏ\” — tránh để bẫy nhận thức của #37 tái diễn”)
+	if !contains(exampleConfig, "con trỏ") {
+		t.Error("file ví dụ phải giải thích rõ \"provider là con trỏ\" — tránh để bẫy nhận thức của #37 tái diễn")
 	}
 }
 

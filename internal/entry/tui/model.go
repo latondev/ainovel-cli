@@ -111,8 +111,9 @@ func NewModel(rt *host.Host, bridge *askUserBridge, version string) Model {
 	// Cho phép paste prompt dài; bubbles textarea dùng CharLimit=0 là không giới hạn.
 	ta.CharLimit = 0
 	ta.SetHeight(1)
-	// MaxHeight=6 cho phép input quá dài tự động wrap theo chiều rộng hiển thị thành nhiều dòng (tối đa 6 dòng hiển thị).
-	ta.MaxHeight = 6
+	// MaxHeight đặt cao để không bao giờ là bottleneck; ceiling thực tế được tính động
+	// trong refitTextareaHeight() theo terminal height, giữ bodyH ≥ minBodyLines.
+	ta.MaxHeight = 200
 	ta.ShowLineNumbers = false
 	ta.Focus()
 
@@ -319,9 +320,14 @@ func (m *Model) currentInputWidth() int {
 	return m.inputWidth()
 }
 
+// minBodyLines là số dòng tối thiểu giữ lại cho vùng output/body khi input mở rộng.
+// Đủ để thấy vài dòng output ngay cả khi paste prompt rất dài.
+const minBodyLines = 8
+
 // refitTextareaHeight ước tính số dòng hiển thị theo nội dung hiện tại, SetHeight động.
 // Dòng hiển thị = tổng số dòng logic (cắt bởi \n) sau khi wrap theo chiều rộng.
-// Kết hợp với MaxHeight=6 để thực hiện "nội dung quá dài/xuống dòng chủ động tự hiển thị nhiều dòng, tối đa 6 dòng".
+// Ceiling được tính động: terminal height − topBar − hintLine − border − minBodyLines,
+// đảm bảo vùng output không bị co xuống dưới minBodyLines dù prompt dài bao nhiêu.
 func (m *Model) refitTextareaHeight() {
 	w := m.textarea.Width()
 	if w <= 0 {
@@ -348,13 +354,26 @@ func (m *Model) refitTextareaHeight() {
 	for line := range strings.SplitSeq(text, "\n") {
 		lw := lipgloss.Width(line)
 		if lw == 0 {
-			total++
+			// Dòng trống (khoảng cách giữa đoạn) không đóng góp vào chiều cao hiển thị —
+			// nội dung vẫn được lưu và submit đầy đủ, chỉ không mở rộng box vô ích.
 			continue
 		}
 		total += (lw + contentW - 1) / contentW
 	}
 	if total < 1 {
 		total = 1
+	}
+	// Dynamic ceiling: giữ lại minBodyLines cho vùng output.
+	// topH ≈ 2 (topBar), hintLine ≈ 2 (hint+newline), border ≈ 2 (top+bottom border của inputBox).
+	if m.height > 0 {
+		const overhead = 6 // topH(2) + hintLine(2) + border(2)
+		ceiling := m.height - minBodyLines - overhead
+		if ceiling < 1 {
+			ceiling = 1
+		}
+		if total > ceiling {
+			total = ceiling
+		}
 	}
 	m.textarea.SetHeight(total) // SetHeight clamp theo MaxHeight bên trong
 }

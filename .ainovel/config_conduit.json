@@ -7,8 +7,8 @@
             "api_key": "sk-cdt-eyJpZCI6IjYxODcyMDcxNTgiLCJ1IjoiIiwibiI6ImRlZmF1bHQiLCJqIjoiZGVmYXVsdCIsImsiOiJhcGkifQ.TytH3bbJkXXNmXG8Qrmaa_5hjjcsvRkXJ5uFh8pwKKY",
             "base_url": "https://conduit.ozdoev.net/api/v1",
             "models": [
-                "gpt-5",
                 "claude-opus-4-8",
+                "gpt-5",
                 "claude-sonnet-4-6",
                 "claude-haiku-4-5",
                 "gpt-5-mini",

@@ -319,6 +319,14 @@ Dùng hành động thay cho "anh nói".
    > - Nhân vật có quyền / lớn tuổi hơn: tao / tôi / ta — kết hợp gọi đối phương là "cậu / mày / anh / chú"
    > - Chỉ để hai nhân vật đều dùng "tôi" khi quan hệ thật sự ngang hàng và xa cách; ngay cả khi đó, phải bù bằng action beat và giọng điệu khác nhau để người đọc không bị nhòe.
 
+8. **Đùa/trêu sai thời điểm — "nhây"** — nhân vật (nhất là kiểu hài/lắm mồm) đùa cợt bất kể không khí: lúc thường trêu, lúc quan trọng cũng trêu, lúc nguy hiểm/tang thương vẫn trêu. Kết quả: căng thẳng bị xẹp, người đọc ức chế, nhân vật trông vô duyên và kém nhạy.
+   > Giải pháp — điều tiết đùa theo mức đặt cược của cảnh:
+   > - Cảnh đời thường/nghỉ ngơi: đùa thoải mái, đây là chỗ nhân vật hài tỏa sáng.
+   > - Cảnh đang lên/quan trọng: đùa thưa, ngắn, sắc — một câu giảm áp rồi thôi.
+   > - Cảnh nguy hiểm/tang thương/sinh tử: mặc định tắt trò đùa. Nếu vẫn đùa, phải cho thấy nhân vật **biết rõ tình thế** và đùa để chịu đựng/che sợ (gallows humor) — khác hẳn đùa vô tư như không nhận ra nguy hiểm.
+   >
+   > **Ranh giới "chất" vs "nhây":** nhân vật có nhận ra mức nghiêm trọng của cảnh không? Có mà vẫn đùa có ý thức → chiều sâu; không nhận ra mà đùa vô tư → nhây.
+
 ---
 
 ## Tự Kiểm Tra Đối Thoại
@@ -331,5 +339,6 @@ Sau khi viết xong đối thoại, hãy kiểm tra:
 - [ ] Có ngầm ý không?
 - [ ] Nhịp điệu có phù hợp (nhanh/chậm) không?
 - [ ] Có phù hợp với tính cách nhân vật không?
+- [ ] Nếu có đùa/trêu, liều lượng và sắc thái có khớp với mức căng của cảnh không (không đùa vô tội vạ ở cảnh nguy hiểm/tang thương)?
 - [ ] Thẻ đối thoại có được dùng đúng cách không?
 - [ ] Mỗi lượt thoại của mỗi nhân vật có nằm trên đoạn riêng không? (không để hai người nói dính chung một dòng hoặc cùng đoạn văn)
