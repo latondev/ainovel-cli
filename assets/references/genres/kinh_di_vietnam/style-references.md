@@ -99,7 +99,15 @@ Phần này điều chỉnh *nhịp* — đặc biệt ở các chương mở đ
 - **Định lượng:** một đoạn mô tả thuần cảnh/không khí kéo dài quá **3–4 câu** mà chưa có một phản ứng cơ thể hay một ý nghĩ của nhân vật chen vào → đang trôi, cắt ~20% và neo lại vào người.
 - **Mô tả phục vụ nhịp, không phải khoe.** Tả nhiều ở chỗ cần nén thở (cận cảnh tiếng động nhỏ); tả ít, câu ngắn động từ mạnh ở chỗ biến cố nổ ra (đã nêu ở 1.A). Cảnh hành động mà tả dài dòng = giết nhịp.
 
-### F. Chống đơn điệu tông buồn / xa xăm (lỗi tâm trạng lặp)
+### F. Chống lạm dụng ví von dân gian trong đối thoại (folk-analogy overuse)
+> Kinh dị dân gian dễ rơi vào bẫy thứ hai: để nhân vật *liên tục* nói ví von mượn hình ảnh đời thường (con lợn ăn khỏe, rượu uống ngược, trâu gãy sừng...) thay vì nói thẳng. Một câu ví von đúng chỗ tạo bản sắc vùng miền; nhiều câu liên tiếp thì người đọc mệt giải mã, mạch truyện đứt, và nguy hiểm nhất là **mọi nhân vật nghe giống nhau** — mất cá tính riêng.
+
+- **Liều lượng tối đa:** trong một cảnh thoại, **1–2 câu ví von là đủ**; phần còn lại để nhân vật nói thẳng, ngắn, sắc. Ví von dân gian là đặc quyền của *một số* nhân vật cụ thể (người già, người quen miệng bản địa), không phải mặc định cho toàn dàn.
+- **Chỉ ví von khi có lý do:** nhân vật dùng hình ảnh vòng vèo khi *cố né tránh nói thẳng*, *giảm nhẹ tình huống*, hoặc *thân mật bỡn cợt*. Cảnh cấp bách hoặc thực tế thì nói thẳng — không có thời gian ví von.
+- **Kiểm tra:** đọc lại cảnh thoại, nếu xóa thẻ người nói đi vẫn không phân biệt được ai đang nói vì tất cả đều nói ví von theo cùng một kiểu → đang lạm dụng, phải xé mỏng và phân hóa giọng từng nhân vật.
+- **Định lượng:** đếm câu ví von / tổng số câu thoại trong cảnh. Nếu tỉ lệ vượt 30% → cắt bớt còn 1 câu đắt nhất, chuyển phần còn lại thành nói thẳng hoặc hành động kèm thoại.
+
+### G. Chống đơn điệu tông buồn / xa xăm (lỗi tâm trạng lặp)
 > Kinh dị dân gian dễ rơi vào một cái bẫy riêng: tả đẹp, buồn, hoài niệm, "xa xăm" — rồi **giữ nguyên đúng một tông đó từ đầu đến cuối**. Đọc vài chương thấy hay, đọc nhiều thấy chùng, nhão, mất lực kéo. Buồn là **gia vị**, không phải khí hậu thường trực.
 
 - **Buồn phải gắn hành động hoặc quyết định, không đứng tả suông.** Một nỗi buồn đẩy nhân vật *làm gì đó* (cầm bút lên, giấu một bức ảnh, nói dối thân nhân) mới có sức nặng. Buồn chỉ để ngân nga = trôi. Nếu một đoạn hoài niệm/man mác không đổi điều gì trong cảnh → cắt hoặc nén còn 1–2 câu.

@@ -261,6 +261,7 @@ Hành động của nhân vật phải phù hợp với tính cách đã đượ
 - Mức nhạy bén/hiểu biết của nhân vật ở cảnh này có khớp với các cảnh khác không, hay đang bị hạ xuống chỉ vì người đối thoại?
 - Nếu nhân vật tỏ ra khờ, chỗ khờ đó có nằm trong điểm mù cố định của họ không?
 - Ở cảnh căng/nguy hiểm/tang thương, nhân vật (nhất là nhân vật hài) có đùa cợt vô tội vạ làm xẹp không khí không? Nếu có đùa, đó là đùa **có ý thức** (biết tình thế, cười để chịu đựng) hay đùa **vô ý thức** (không nhận ra mức nghiêm trọng — thành nhây)?
+- Nếu nhân vật vừa phát hiện một bất ổn/vấn đề, họ có **trải qua đủ giai đoạn nhận thức** trước khi hành động không? Bốn bước bắt buộc: **(1) Phát hiện dấu hiệu → (2) Nghi ngờ / dò xét → (3) Thu thập & kiểm chứng thông tin → (4) Xác nhận chân tướng → (5) Tìm cách đối phó**. Nếu câu chuyện nhảy từ bước 1 thẳng sang bước 4–5, đó là lỗi logic — nhân vật biết sự thật từ đâu?
 
 **Xử lý ngoại lệ:**
 - Nếu nhân vật hành động "không đúng tính cách", phải có lý do

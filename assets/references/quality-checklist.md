@@ -58,6 +58,7 @@ Dùng danh sách kiểm tra chất lượng này trước khi bàn giao chương
   - Quan hệ nhân quả của sự kiện hợp lý
   - Không có tình huống may mắn dẫn dắt cốt truyện
   - Hành vi nhân vật phù hợp với động cơ
+  - Nếu nhân vật phát hiện bất ổn/vấn đề trong chương này: có giai đoạn **thu thập & kiểm chứng thông tin** trước khi biết chân tướng và đối phó không? (Không được nhảy cóc: Phát hiện → Điều tra → Xác nhận → Đối phó)
 
 ### Xung Đột và Căng Thẳng
 
@@ -183,6 +184,10 @@ Kiểm tra và sửa các mẫu sau:
   - Tránh các từ AI điển hình như "ngoài ra", "tuy nhiên", "nhấn mạnh"
   - Tránh chất đống thành ngữ sáo rỗng
   - Đa dạng hóa cấu trúc câu
+
+- [ ] **Không lạm dụng ví von dân gian**
+  - Mỗi cảnh thoại tối đa 1–2 câu ví von (hình ảnh con vật, đồ vật nhà nông...); phần còn lại nói thẳng
+  - Các nhân vật khác nhau có giọng khác nhau — không phải ai cũng nói ví von kiểu như nhau
 
 - [ ] **Không lạm dụng từ "của" / từ nối sáo mòn**
   - Không có nhiều từ nối lặp liên tiếp

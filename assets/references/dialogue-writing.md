@@ -327,6 +327,11 @@ Dùng hành động thay cho "anh nói".
    >
    > **Ranh giới "chất" vs "nhây":** nhân vật có nhận ra mức nghiêm trọng của cảnh không? Có mà vẫn đùa có ý thức → chiều sâu; không nhận ra mà đùa vô tư → nhây.
 
+9. **Lạm dụng ví von dân gian / khẩu ngữ địa phương** — mỗi câu thoại đều mượn hình ảnh đời sống thô mộc (con lợn, chum rượu, con trâu, nồi cám...) để nói gián tiếp thay vì nói thẳng. Một câu ví von đúng chỗ thì tạo sắc thái vùng miền; nhiều câu liên tiếp thì người đọc mệt giải mã, mạch truyện bị đứt, và nguy hiểm hơn — **mọi nhân vật nghe giống nhau**, mất cá tính riêng.
+   > **Liều lượng:** trong một cảnh thoại, **tối đa 1–2 câu ví von**; phần còn lại để nhân vật nói thẳng, ngắn, sắc. Ví von dân gian là điểm nhấn của *một vài* nhân vật cụ thể (người lớn tuổi, người quen miệng theo vùng), không phải mặc định cho toàn bộ dàn nhân vật.
+   >
+   > **Giải pháp:** khi nhân vật cần nói điều cấp bách hoặc thực tế, cho họ nói thẳng. Câu ví von chỉ xuất hiện khi nhân vật *cố ý nói vòng* (né tránh, giảm nhẹ, thân mật) hoặc ở cảnh thư giãn bình thường. Xen kẽ lời nói thẳng và câu ví von để thoại có nhịp thở, không bị đặc sệt một màu.
+
 ---
 
 ## Tự Kiểm Tra Đối Thoại
@@ -340,5 +345,6 @@ Sau khi viết xong đối thoại, hãy kiểm tra:
 - [ ] Nhịp điệu có phù hợp (nhanh/chậm) không?
 - [ ] Có phù hợp với tính cách nhân vật không?
 - [ ] Nếu có đùa/trêu, liều lượng và sắc thái có khớp với mức căng của cảnh không (không đùa vô tội vạ ở cảnh nguy hiểm/tang thương)?
+- [ ] Có bao nhiêu câu ví von dân gian trong cảnh này? Nếu quá 2 câu liên tiếp hoặc mọi nhân vật đều nói ví von kiểu nhau — cắt bớt, để lại 1 câu đắt nhất, phần còn lại chuyển sang nói thẳng.
 - [ ] Thẻ đối thoại có được dùng đúng cách không?
 - [ ] Mỗi lượt thoại của mỗi nhân vật có nằm trên đoạn riêng không? (không để hai người nói dính chung một dòng hoặc cùng đoạn văn)
